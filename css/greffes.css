@@ -12,6 +12,7 @@ html {
 body {
   font-size: 1.4rem;
   background: #eef0fa;
+  position: relative;
 }
 
 main {
@@ -74,6 +75,21 @@ header .contact_header {
 .logo_header {
   display: flex;
   align-items: center;
+}
+
+/* NAV  */
+
+nav {
+  position: absolute;
+  top: 250px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px 10px 20px 10px;
+}
+
+nav ul li a {
+  background: grey;
+  margin
 }
 
 /* DIV EXPLAIN  */
