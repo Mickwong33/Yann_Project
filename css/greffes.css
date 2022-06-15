@@ -70,3 +70,82 @@ header .contact_header {
     display: flex;
     align-items: center;
 }
+
+
+/* DIV EXPLAIN  */
+
+main {
+    width: 1200px;
+    border: 1px solid pink;
+    margin: 0px auto;
+}
+
+.explain {
+    width: 900px;
+    border: 1px solid green;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_explain {
+    border: 1px solid pink;
+    margin-top: 70px;
+    width: 45%
+}
+
+.left_explain i {
+    color: #ED8838;
+}
+
+.left_explain h2 {
+    color: #ED8838;
+    margin-bottom: 20px;
+}
+
+.left_explain h1,
+.left_explain h3,
+.left_explain p {
+    color: #1F2B82;
+    margin-bottom: 20px;
+}
+
+.bread_crumb {
+    margin-bottom: 20px;
+}
+
+.bread_crumb a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.bread_crumb i {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+}
+
+.i_titre {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.i_titre i {
+    font-size: 2rem;
+}
+
+.i_titre h3 {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.rigth_form {
+    border: 1px solid red;
+    width: 45%
+}
+
+.right_form form {
+    background: white;
+}
