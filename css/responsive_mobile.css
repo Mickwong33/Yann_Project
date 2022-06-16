@@ -9,7 +9,18 @@
 
   .container {
     max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
   }
+  .container .explain {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .explain .i_titre {
+    text-align: left;
+  }
+
   .logo_header img {
     margin-left: 10px;
   }
@@ -23,18 +34,30 @@
 
   .explain {
     flex-direction: column;
+    max-width: 100%;
+    margin: 30px auto;
   }
 
-  /* .left_explain {
+  .left_explain {
     width: 350px;
   }
 
   .rigth_form {
-    width: 350px;
-  } */
+    width: 100%;
+    margin-top: 20px;
+  }
+  .regroupe {
+    display: flex;
+    flex-direction: column;
+  }
 
-  .card_disposition {
-    display: none;
+  .informations input {
+    width: 100%;
+  }
+
+  .button_formalite {
+    margin: 15px 0 0 110px;
+    margin-top: 30px;
   }
 
   #formalite_legalvision {
@@ -45,7 +68,49 @@
     display: none;
   }
 
-  #right_legal {
-    width: 100%;
+  #pratiques h2 {
+    padding-top: 0;
+  }
+
+  .card_disposition {
+    display: none;
+  }
+
+  .card_mobile {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .card_mobile_design {
+    border: none;
+    border-radius: 5px;
+    margin: 40px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .titre_card_mobile {
+    display: flex;
+    align-items: center;
+    background: grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .titre_card_mobile i {
+    font-size: 4rem;
+  }
+
+  .titre_card_mobile h3 {
+    margin: 15px;
+  }
+}
+
+@media (min-width: 401px) {
+  .card_mobile {
+    display: none;
   }
 }
