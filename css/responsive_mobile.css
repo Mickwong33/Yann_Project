@@ -1,0 +1,51 @@
+@media (max-width: 400px) {
+  header {
+    height: 50px;
+    padding-left: 50px;
+  }
+  header .right_header {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+  .logo_header img {
+    margin-left: 10px;
+  }
+  .nav1 {
+    display: none;
+  }
+
+  .menu_right1 {
+    display: none;
+  }
+
+  .explain {
+    flex-direction: column;
+  }
+
+  /* .left_explain {
+    width: 350px;
+  }
+
+  .rigth_form {
+    width: 350px;
+  } */
+
+  .card_disposition {
+    display: none;
+  }
+
+  #formalite_legalvision {
+    flex-direction: column;
+  }
+
+  #img_legal {
+    display: none;
+  }
+
+  #right_legal {
+    width: 100%;
+  }
+}
