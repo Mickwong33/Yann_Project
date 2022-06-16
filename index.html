@@ -25,18 +25,40 @@
       </div>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href=""> Demande au greffe</a></li>
-        <li><a href="">Infos pratiques</a></li>
-        <li><a href="">LegalVision</a></li>
-        <li><a href="">Le greffe en chiffres</a></li>
-        <li><a href="">Commune du greffe</a></li>
-        <li><a href="">FAQ</a></li>
-        <li><a href="">Tarifs</a></li>
-        <li><a href="">Commentaires</a></li>
-      </ul>
-    </nav>
+    <div class="nav1">
+      <nav>
+        <ul>
+          <li><a href=""> Demande au greffe</a></li>
+          <li><a href="">Infos pratiques</a></li>
+          <li><a href="">LegalVision</a></li>
+          <li><a href="">Le greffe en chiffres</a></li>
+          <li><a href="">Commune du greffe</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Tarifs</a></li>
+          <li><a href="">Commentaires</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu_right1">
+      <div class="menu_right">
+        <div class="rappel">
+          <i class="fa fa-phone"></i>
+          <p>ÉTRE RAPPELÉ</p>
+        </div>
+        <div class="rendezvous">
+          <i class="fa fa-calendar"></i>
+          <p>
+            PRENDRE<br />
+            RENDEZ-VOUS
+          </p>
+        </div>
+        <div class="contact">
+          <i class="fa fa-envelope"></i>
+          <p>NOUS <br />CONTACTER</p>
+        </div>
+      </div>
+    </div>
 
     <main>
       <div class="explain">
@@ -85,41 +107,110 @@
                   <option value="formalite">Formalité</option>
                 </select>
               </div>
-              <div class="informations">
+              <div class="informations1">
                 <label for="nom">Nom de votre société ou personne morale</label>
                 <input type="text" name="nom" id="nom" placeholder="Entrer" />
               </div>
-              <div class="informations">
-                <label for="telephone">Numéro de téléphone </label><br />
-                <input
-                  type="text"
-                  for="telephone"
-                  id="telephone"
-                  placeholder="Entrer"
-                />
-              </div>
-              <div class="informations">
-                <label for="mail">Adresse email </label><br />
-                <input type="text" for="mail" id="mail" placeholder="Entrer" />
+              <div class="regroupe">
+                <div class="informations">
+                  <label for="telephone">Numéro de téléphone </label><br />
+                  <input type="text" id="telephone" placeholder="Entrer" />
+                </div>
+                <div class="informations">
+                  <label for="mail">Adresse email </label><br />
+                  <input type="text" id="mail" placeholder="Entrer" />
+                </div>
               </div>
               <div>
-                <label for="area">Information pour le juriste formaliste</label>
-                <textarea name="" id="" rows="5">Entrer</textarea>
+                <label for="area1"
+                  >Information pour le juriste formaliste</label
+                >
+                <textarea name="area1" id="area1" rows="5">Entrer</textarea>
               </div>
               <div class="checkbox_design">
                 <p class="checkbox_p">Vous êtes</p>
-                <input type="checkbox" />
-                <label for="area">Professionnel du droit ou du chiffre</label>
+                <input type="checkbox" id="area2" />
+                <label for="area2">Professionnel du droit ou du chiffre</label>
               </div>
               <div class="checkbox_design">
-                <input type="checkbox" />
-                <label for="area">Dirigeant de TPE ou PME</label>
+                <input type="checkbox" id="area3" />
+                <label for="area3">Dirigeant de TPE ou PME</label>
               </div>
               <div class="button_formalite">
                 <input type="submit" value="Démarrer une formalité" />
                 <i class="fa fa-arrow-right"></i>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="pratiques">
+        <h2>Informations pratiques</h2>
+        <div class="card_disposition">
+          <div class="card_pratiques">
+            <div class="titre_pratiques">
+              <div class="i_pratiques">
+                <i class="fa fa-times"></i>
+                <p>Adresse postal</p>
+              </div>
+              <div class="description_pratiques">
+                <p>Greffe du tribunal du Commerce de [ville]</p>
+                <p>
+                  1 av. Marie Anne de<br />
+                  Neubourg,
+                </p>
+                <p>64100 Bayonne</p>
+              </div>
+            </div>
+          </div>
+          <div class="card_pratiques">
+            <div class="titre_pratiques">
+              <div class="i_pratiques">
+                <i class="fa fa-envelope"></i>
+                <p>Contact</p>
+              </div>
+              <div class="description_pratiques">
+                <p>Téléphone<br />05 59 46 33 00</p>
+                <p>
+                  Adresse mail<br />
+                  Greffier@greffe.fr
+                </p>
+                <p>En savoir plus<br />www.greffe-nantes.fr</p>
+              </div>
+            </div>
+          </div>
+          <div class="card_pratiques">
+            <div class="titre_pratiques">
+              <div class="i_pratiques">
+                <i class="fa fa-envelope"></i>
+                <p>Permanence téléphonique</p>
+              </div>
+              <div class="description_pratiques">
+                <p>Les matins de 9h00 à 12h00 du mardi au jeudi</p>
+                <p>
+                  1 av. Marie Anne de<br />
+                  Neubourg,
+                </p>
+                <p>64100 Bayonne</p>
+              </div>
+            </div>
+          </div>
+          <div class="card_pratiques">
+            <div class="titre_pratiques">
+              <div class="i_pratiques">
+                <i class="fa fa-times"></i>
+                <p>Horaires d'ouverture</p>
+              </div>
+              <div class="description_pratiques">
+                <p>Greffe du tribunal du Commerce de [ville]</p>
+                <p>
+                  1 av. Marie Anne de<br />
+                  Neubourg,
+                </p>
+                <p>64100 Bayonne</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

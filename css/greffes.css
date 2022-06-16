@@ -17,7 +17,6 @@ body {
 
 main {
   width: 970px;
-  border: 1px solid pink;
   margin: 0px auto;
 }
 
@@ -79,17 +78,85 @@ header .contact_header {
 
 /* NAV  */
 
-nav {
+.nav1 {
   position: absolute;
+  top: 250px;
+  height: 100%;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
   top: 250px;
   border: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  padding: 20px 10px 20px 10px;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+}
+
+nav ul li {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+nav ul li:hover {
+  background: #ddddee;
 }
 
 nav ul li a {
-  background: grey;
-  margin
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #1f2b82;
+}
+
+/* MENU RIGHT  */
+
+.menu_right1 {
+  position: absolute;
+  top: 310px;
+  right: 0;
+  height: 100%;
+}
+
+.menu_right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 310px;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.menu_right i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.menu_right div {
+  background: #1f2b82;
+}
+
+.menu_right div:hover {
+  background: #535d9e;
+}
+
+.menu_right .rappel {
+  padding: 20px 3px 20px 3px;
+}
+.menu_right .rendezvous {
+  padding: 10px;
+}
+
+.menu_right .contact {
+  padding: 10px;
 }
 
 /* DIV EXPLAIN  */
@@ -132,7 +199,7 @@ nav ul li a {
 }
 
 .bread_crumb {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .bread_crumb a {
@@ -181,7 +248,20 @@ nav ul li a {
   color: rgb(219, 218, 218);
   padding: 5px;
   margin-bottom: 15px;
+}
+
+.informations1 input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  color: rgb(219, 218, 218);
+  padding: 5px;
+  margin-bottom: 15px;
   width: 100%;
+}
+
+.regroupe {
+  display: flex;
+  justify-content: space-between;
 }
 
 ::placeholder {
@@ -200,6 +280,7 @@ nav ul li a {
 .enrobage_form p {
   color: #9ca1c7;
   margin-bottom: 7px;
+  font-size: 1.2rem;
 }
 
 .enrobage_form label {
@@ -245,4 +326,64 @@ nav ul li a {
   background: none;
   color: white;
   font-size: 1.2rem;
+}
+
+/* PRATIQUES  */
+
+#pratiques {
+  color: #1f2b82;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.card_disposition {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.card_pratiques {
+  margin-top: 50px;
+}
+
+.titre_pratiques {
+  background: #ebebe6;
+  width: 200px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.titre_pratiques p {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.description_pratiques {
+  height: 140px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.i_pratiques {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.i_pratiques p {
+  padding: 0;
+  font-size: 0.95rem;
+}
+
+.i_pratiques i {
+  font-size: 2.5rem;
+  color: #ed7e25;
+  margin-right: 5px;
 }
