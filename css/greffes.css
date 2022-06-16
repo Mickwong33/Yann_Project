@@ -435,6 +435,8 @@ nav ul li a:hover {
 
 #faq {
   margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #faq h2 {
@@ -452,4 +454,130 @@ nav ul li a:hover {
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.04);
   padding: 10px 0;
+}
+
+/* LEGALVISION */
+
+#formalite_legalvision {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#left_legal {
+  width: 45%;
+}
+
+#right_legal {
+  margin: 0 20px 0 20px;
+  width: 45%;
+  text-align: justify;
+}
+
+#right_legal h2 {
+  color: #1f2b82;
+  margin-bottom: 25px;
+}
+
+#right_legal h5 {
+  color: #1f2b82;
+  margin-bottom: 5px;
+}
+
+#right_legal p {
+  color: #1f2b82;
+  margin-bottom: 25px;
+}
+
+#right_legal span,
+#right_legal i {
+  color: #ed7e25;
+  margin-bottom: 25px;
+}
+
+#right_legal .chiffre {
+  color: #1f2b82;
+  font-weight: bold;
+}
+
+#img_legal {
+  display: flex;
+  justify-content: space-between;
+}
+
+#pasdetemps img {
+  width: 100%;
+}
+
+#img_legal img {
+  margin-bottom: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* JURISTE */
+
+.juriste_image {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.juriste_image h2 {
+  padding-bottom: 40px;
+  color: #1f2b82;
+  text-align: center;
+}
+
+.juriste_container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.juriste_left {
+  display: flex;
+}
+
+.juriste_left img {
+  width: 150px;
+  border: none;
+  border-radius: 100%;
+}
+
+.juriste_right {
+  display: flex;
+  align-items: center;
+}
+
+.juriste_right h3 {
+  color: #1f2b82;
+  margin-bottom: 10px;
+}
+
+.juriste_right p {
+  color: #1f2b82;
+  margin-bottom: 10px;
+}
+
+.juriste_details {
+  width: 250px;
+}
+
+.juriste_details button {
+  background: #ed7e25;
+  padding: 6px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 }
