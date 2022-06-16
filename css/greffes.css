@@ -434,11 +434,22 @@ nav ul li a:hover {
 /* FAQ */
 
 #faq {
-  border: 1px solid red;
   margin-top: 150px;
 }
 
 #faq h2 {
   text-align: center;
   color: #1f2b82;
+}
+
+#faq_questions {
+  margin-top: 30px;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 10px 0;
 }
