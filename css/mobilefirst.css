@@ -216,3 +216,38 @@ input[type="submit"] {
   border-top: 1px solid rgb(198, 198, 198);
   border-bottom: 1px solid rgba(198, 198, 198, 0.2);
 }
+
+/* formalite_legal  */
+
+#img_legal {
+  display: none;
+}
+
+#pasdetemps {
+  margin: 80px 10px 10px 10px;
+}
+
+#right_legal {
+  margin: 10px;
+  padding: 10px;
+  line-height: 2rem;
+}
+
+#right_legal h2 {
+  color: #1f2b82;
+  font-size: 2rem;
+}
+
+#right_legal h5 {
+  color: #1f2b82;
+  font-size: 1rem;
+}
+
+#right_legal p {
+  color: #1f2b82;
+}
+
+#right_legal span {
+  color: #ed7e25;
+  font-weight: bold;
+}
