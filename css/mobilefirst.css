@@ -173,6 +173,7 @@ input[type="submit"] {
   margin: 0;
   border: none;
   text-align: right;
+  cursor: pointer;
 }
 
 .button_formalite {
@@ -186,6 +187,54 @@ input[type="submit"] {
 .button_formalite i {
   color: #fff;
   margin-right: 3px;
+}
+
+/* CARD DESIGN INFO PRATIQUES */
+
+#pratiques {
+  border: 1px solid rgb(246, 0, 251);
+}
+
+.card_disposition {
+  margin: 10px;
+  display: flex;
+}
+
+.i_pratiques {
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.i_pratiques i {
+  font-size: 4rem;
+  color: #ed7e25;
+  margin-right: 10px;
+}
+.i_pratiques p {
+  font-size: 1.5rem;
+  color: #1f2b82;
+  font-weight: bold;
+}
+
+.description_pratiques {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description_pratiques p,
+.description_pratiques span {
+  color: #1f2b82;
+}
+
+.description_pratiques p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 12px;
 }
 
 /* FAQ */
@@ -337,7 +386,104 @@ input[type="submit"] {
 /* 800PX MIN  */
 @media (min-width: 800px) {
   .container1 {
-    background-color: rgba(198, 204, 246, 0.4);
+    background: rgba(198, 204, 246, 0.4);
+  }
+
+  /* HEADER  */
+  header {
+    margin: 0;
+  }
+
+  .left_header i {
+    display: none;
+  }
+
+  /* NAV  */
+
+  .nav1 {
+    position: absolute;
+    top: 250px;
+    height: 100%;
+  }
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 250px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 25px 10px 25px 10px;
+    text-align: center;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+  nav ul li {
+    background: rgba(0, 0, 0, 0.04);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+  }
+  nav ul li:hover {
+    background: #ddddee;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+  }
+
+  nav ul li a:hover {
+    color: #1f2b82;
+  }
+
+  /* MENU RIGHT  */
+
+  .menu_right1 {
+    display: block;
+    position: absolute;
+    top: 310px;
+    right: 0;
+    height: 100%;
+  }
+
+  .menu_right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 310px;
+    right: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+
+  .menu_right i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .menu_right div {
+    background: #1f2b82;
+  }
+
+  .menu_right div:hover {
+    background: #535d9e;
+  }
+
+  .menu_right .rappel {
+    padding: 20px 3px 20px 3px;
+  }
+  .menu_right .rendezvous {
+    padding: 10px;
+  }
+
+  .menu_right .contact {
+    padding: 10px;
   }
 
   #pasdetemps {
@@ -419,22 +565,41 @@ input[type="submit"] {
   }
 
   .explain {
-    border: 1px solid brown;
-    background: #e8ebfc;
     display: flex;
     justify-content: space-around;
     width: 970px;
     margin: 0 auto;
+    padding: 70px 0;
+    background: none;
   }
 
   .left_explain {
-    border: 1px solid yellow;
-    width: 45%;
+    width: 40%;
+  }
+
+  .left_explain h1 {
+    margin-top: 25px;
+    line-height: 2.5rem;
+  }
+
+  .left_explain h2 {
+    font-size: 2rem;
+    margin-right: 50px;
+    line-height: 2.5rem;
+  }
+
+  .button_formalite {
+    margin-top: 15px;
+    margin-left: 120px;
+  }
+
+  .button_formalite i {
+    margin-right: 10px;
   }
 
   .rigth_form {
-    border: 1px solid green;
     margin: 0;
-    width: 45%;
+    padding: 20px;
+    width: 35%;
   }
 }
