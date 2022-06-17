@@ -159,3 +159,35 @@ textarea {
 ::placeholder {
   color: rgb(233, 232, 232);
 }
+
+.checkbox_design input[type="checkbox"] {
+  width: auto;
+}
+
+.checkbox_design {
+  display: flex;
+}
+
+.area2 {
+}
+
+input[type="submit"] {
+  background: #ed7e25;
+  color: #fff;
+  margin: 0;
+  border: none;
+  text-align: right;
+}
+
+.button_formalite {
+  background: #ed7e25;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.button_formalite i {
+  color: #fff;
+  margin-right: 3px;
+}
