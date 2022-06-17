@@ -235,16 +235,18 @@ input[type="submit"] {
 
 #right_legal h2 {
   color: #1f2b82;
-  font-size: 2rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 #right_legal h5 {
   color: #1f2b82;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #right_legal p {
   color: #1f2b82;
+  font-size: 1.3rem;
 }
 
 #right_legal span {
@@ -330,4 +332,109 @@ input[type="submit"] {
   font-size: 1.6rem;
   padding: 20px;
   line-height: 2rem;
+}
+
+/* 800PX MIN  */
+@media (min-width: 800px) {
+  .container1 {
+    background-color: rgba(198, 204, 246, 0.4);
+  }
+
+  #pasdetemps {
+    width: 450px;
+    margin: 0 auto;
+  }
+  #formalite_legalvision {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 10px 10px;
+    padding: 10px;
+  }
+
+  #img_legal {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  #img_legal img {
+    width: 200px;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+  }
+
+  #left_legal {
+    margin-right: 10px;
+  }
+
+  #right_legal {
+    margin: 0;
+    padding-top: 0;
+    width: 30%;
+  }
+
+  #right_legal h2 {
+    margin-top: 0;
+  }
+
+  #right_legal h5 {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  #right_legal p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  .juriste_image h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .juriste_container {
+    padding: 20px;
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  #global_chiffres {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .les_chiffres p {
+    width: 300px;
+  }
+
+  #faq {
+    width: 970px;
+    margin: 100px auto;
+  }
+
+  #faq h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 280px 0 280px;
+  }
+
+  .explain {
+    border: 1px solid brown;
+    background: #e8ebfc;
+    display: flex;
+    justify-content: space-around;
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .left_explain {
+    border: 1px solid yellow;
+    width: 45%;
+  }
+
+  .rigth_form {
+    border: 1px solid green;
+    margin: 0;
+    width: 45%;
+  }
 }
