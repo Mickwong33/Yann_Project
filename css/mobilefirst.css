@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* HEADER  */
@@ -192,16 +192,29 @@ input[type="submit"] {
 /* CARD DESIGN INFO PRATIQUES */
 
 #pratiques {
-  border: 1px solid rgb(246, 0, 251);
+  margin-top: 50px;
+  padding: 1px;
+}
+
+#pratiques h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1f2b82;
+  margin-bottom: 50px;
 }
 
 .card_disposition {
   margin: 10px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card_pratiques {
+  margin: 5px;
 }
 
 .i_pratiques {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.08);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,19 +224,44 @@ input[type="submit"] {
 }
 
 .i_pratiques i {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #ed7e25;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .i_pratiques p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #1f2b82;
   font-weight: bold;
 }
 
 .description_pratiques {
   padding: 20px;
+  width: 165px;
+  height: 170px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description_pratiques1 {
+  padding: 20px;
+  width: 165px;
+  height: 170px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.description_pratiques1 ul {
+  padding: 0;
+}
+
+.description_pratiques1 ul li {
+  list-style-type: none;
+  color: #1f2b82;
+}
+
+.description_pratiques1 ul:nth-of-type(2) {
+  font-weight: bold;
 }
 
 .description_pratiques p,
@@ -392,6 +430,45 @@ input[type="submit"] {
   /* HEADER  */
   header {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+  }
+
+  .right_header {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+  }
+
+  .right_header p {
+    color: #fff;
+  }
+
+  .right_header a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .right_header a:hover {
+    color: #1f2b82;
+    background: #fff;
+  }
+
+  .right_header p span {
+    font-size: 0.8rem;
+    color: #535d9e;
+  }
+
+  .right_header p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
   .left_header i {
@@ -601,5 +678,26 @@ input[type="submit"] {
     margin: 0;
     padding: 20px;
     width: 35%;
+  }
+
+  /* CARD PRATIQUE  */
+
+  .card_disposition {
+    width: 970px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .description_pratiques p {
+    margin-bottom: 0;
+  }
+
+  .i_pratiques {
+    padding: 10px 10px 10px 2px;
+    box-sizing: border-box;
+  }
+  .i_pratiques p {
+    margin: 0;
+    font-size: 1.3rem;
   }
 }
