@@ -251,3 +251,52 @@ input[type="submit"] {
   color: #ed7e25;
   font-weight: bold;
 }
+
+/* JURISTES  */
+.juriste_image {
+  background-color: rgba(198, 204, 246, 0.4);
+  margin: 80px 10px 10px 10px;
+  padding: 100px 10px;
+}
+
+.juriste_image h2 {
+  text-align: center;
+  color: #1f2b82;
+  margin-bottom: 50px;
+}
+
+.juriste_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.juriste_left img {
+  border-radius: 100%;
+}
+
+.juriste_right {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+.juriste_right h3,
+.juriste_right p {
+  color: #1f2b82;
+}
+
+.juriste_right h3 {
+  font-size: 1.8rem;
+}
+
+.juriste_right button {
+  background: #ed7e25;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+}
