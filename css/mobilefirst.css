@@ -596,6 +596,55 @@ input[type="submit"] {
   margin-top: 50px;
 }
 
+/* FORM COMMENTAIRE  */
+
+.form_footer {
+  background: rgba(198, 204, 246, 0.4);
+  padding: 30px 10px;
+  margin: 20px;
+}
+.form_footer_input {
+  border: 1px solid red;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+
+.form_footer_input h2 {
+  color: #1f2b82;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.form_footer_input input {
+  margin-bottom: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.prenom_nom_footer {
+  display: flex;
+}
+
+.button_form_footer {
+  text-align: right;
+}
+
+.button_form_footer button {
+  border: 1px solid orange;
+  background: #ed7e25;
+  color: #fff;
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 /* 800PX MIN  */
 @media (min-width: 800px) {
   .container1 {
@@ -950,5 +999,25 @@ input[type="submit"] {
   .commentaire_titre > h2 {
     text-align: center;
     font-size: 2.3rem;
+  }
+
+  /* FORM COMMENTAIRE  */
+  .form_footer_input {
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .form_footer_input h2 {
+    margin-left: 75px;
+  }
+
+  .button_form_footer {
+    padding-right: 75px;
+  }
+
+  .nom_prenom_mail_global {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
   }
 }
