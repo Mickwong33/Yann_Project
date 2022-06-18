@@ -240,7 +240,7 @@ input[type="submit"] {
 
 .description_pratiques {
   padding: 20px;
-  width: 165px;
+  width: 164px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -490,6 +490,110 @@ input[type="submit"] {
 
 .right_details_juriste h3 {
   font-size: 1.5rem;
+}
+
+/* LOCALISATION  */
+
+.commune {
+  background: rgba(198, 204, 246, 0.4);
+  text-align: center;
+  padding: 10px;
+}
+
+.commune h2 {
+  color: #1f2b82;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 30px 10px;
+}
+
+.localisation {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.localisation_items {
+  display: flex;
+  align-items: center;
+}
+.localisation_items i {
+  margin-right: 5px;
+}
+
+.localisation_Details i,
+.localisation_Details p {
+  font-size: 2rem;
+}
+
+.localisation_Details i {
+  color: #ed7e25;
+}
+
+.localisation_Details p {
+  font-size: 1.8rem;
+}
+
+.dropdown_commune {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+  color: #ed7e25;
+  font-weight: bold;
+}
+
+.dropdown_commune i {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.dropdown_commune p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* COMMENTAIRE ET AVIS */
+.avis_groupe {
+  margin: 10px;
+  padding: 10px;
+}
+
+.card_Avis {
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.titre_avis {
+  color: #1f2b82;
+  padding: 15px;
+  background: rgba(198, 204, 246, 0.4);
+}
+
+.titre_avis h2 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.contenu_avis {
+  color: #1f2b82;
+  padding: 15px;
+}
+
+.contenu_avis p {
+  font-size: 1.4rem;
+}
+
+.commentaire_titre > h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #1f2b82;
+  margin-top: 50px;
 }
 
 /* 800PX MIN  */
@@ -791,5 +895,60 @@ input[type="submit"] {
     justify-content: center;
     justify-content: space-evenly;
     margin: 100px 200px;
+  }
+
+  /* LOCALISATION  */
+
+  .commune {
+    padding-top: 50px;
+  }
+
+  .commune h2 {
+    color: #1f2b82;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 50px 10px;
+  }
+
+  .localisation {
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .localisation_items {
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown_commune {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* COMMENTAIRE ET AVIS */
+  .avis_groupe {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .card_Avis {
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .commentaire_titre {
+    margin: 40px 0;
+    color: #1f2b82;
+  }
+
+  .commentaire_titre > h2 {
+    text-align: center;
+    font-size: 2.3rem;
   }
 }
