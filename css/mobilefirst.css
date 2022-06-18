@@ -237,15 +237,26 @@ input[type="submit"] {
 .description_pratiques {
   padding: 20px;
   width: 165px;
-  height: 170px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description_taille_p {
+  height: 100px;
 }
 
 .description_pratiques1 {
   padding: 20px;
   width: 165px;
-  height: 170px;
+  height: 150px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.description_taille_p1 {
+  height: 100px;
+  width: 100%;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -684,7 +695,7 @@ input[type="submit"] {
 
   .card_disposition {
     width: 970px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 auto;
   }
 
