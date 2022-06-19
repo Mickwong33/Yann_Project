@@ -601,7 +601,7 @@ input[type="submit"] {
 .form_footer {
   background: rgba(198, 204, 246, 0.4);
   padding: 30px 10px;
-  margin: 20px;
+  margin: 20px 10px 0 10px;
 }
 .form_footer_input {
   border: 1px solid red;
@@ -643,6 +643,96 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   font-weight: bold;
+}
+
+/* FOOTER  */
+footer {
+  border: 1px solid yellow;
+  background: #1f2b82;
+  color: #fff;
+  padding: 20px;
+  margin: 0px 10px 10px 10px;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.logo_footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.contenu_footer {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+
+.lien_footer p {
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+}
+
+.linkedin_rond {
+  background: #fff;
+  border: none;
+  border-radius: 100%;
+  width: 20%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#social_brand p {
+  font-size: 1.5rem;
+  color: #bababa;
+}
+
+#social_brand .linkedin {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(75, 75, 165);
+}
+
+.lien_footer h3 {
+  font-size: 1.6rem;
+}
+
+.lien_footer ul {
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.lien_footer ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.lien_footer ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: rgb(218, 218, 218);
+}
+
+.form_footer_lien input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button_form_footer_lien button {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-size: 1.8rem;
+  background: #ed7e25;
+  border: none;
+  margin-bottom: 60px;
 }
 
 /* 800PX MIN  */
